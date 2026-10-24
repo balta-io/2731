@@ -1,0 +1,17 @@
+# Saídas de compilação do .NET
+bin/
+obj/
+
+# Configurações do editor
+.vs/
+.idea/
+*.user
+
+# Arquivos do sistema operacional
+.DS_Store
+
+# Resultados de testes
+TestResults/
+
+# Segredos e configurações locais
+appsettings.Local.json

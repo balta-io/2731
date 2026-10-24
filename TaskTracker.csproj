@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- O projeto de testes fica em uma subpasta e não faz parte do app -->
+    <DefaultItemExcludes>$(DefaultItemExcludes);TaskTracker.Tests/**</DefaultItemExcludes>
+  </PropertyGroup>
+
+</Project>
